@@ -55,12 +55,12 @@
     style="background-color: rgb(17, 24, 39);"
   >
     <div
-      class="w-full h-full border-b border-t border-white md:px-32 p-16 lg:p-20 lg:px-80 p-10"
+      class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10"
     >
       <div class=" text-white">
         <h1 class=" text-5xl">The Project</h1>
         <div
-          class="pt-8 text-justify text-white text-md md:text-lg font-['Poppins']"
+          class="pt-8 text-justify text-white text-md md:text-lg font-['Poppins'] space-y-3"
         >
           <p class=" pt-8">
             Aurora Rocketry is a student organization of the University of
@@ -72,9 +72,19 @@
             to take part in student competitions around Europe and, of course,
             having fun doing so.
           </p>
+          <p>
+            The Team was founded by a group of students in November of 2023 and
+            is now recruting motivated students from all the campus faculties
+            that want to take part in the first project ever.
+          </p>
+          <p>
+            Aurora would not have been possible without the sheer determination
+            of the founders, the aerospace department professors and the support
+            of Skyward, the rocketry team of the Politecnico of Milan.
+          </p>
+          <p></p>
         </div>
       </div>
-      <div class="col-span-1"></div>
     </div>
   </ParallaxLayer>
 
@@ -95,9 +105,38 @@
 ;"
   >
     <div
-      class="w-full h-full border-b border-t border-white grid grid-cols-2 p-12"
-    ></div></ParallaxLayer
-  >
+      class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10"
+    >
+      <div class=" text-white">
+        <h1 class=" text-5xl">The First Rocket</h1>
+        <div
+          class="pt-8 text-justify text-white text-md md:text-lg font-['Poppins'] space-y-3"
+        >
+          <p class=" pt-8">
+            Aurora Rocketry is a student organization of the University of
+            Bologna based in the Forlì Campus. Our primary goal is cultivating
+            skilled and passionate engineers that can work together as a team.
+          </p>
+          <p>
+            We aim to do so by researching, designing and building model rockets
+            to take part in student competitions around Europe and, of course,
+            having fun doing so.
+          </p>
+          <p>
+            The Team was founded by a group of students in November of 2023 and
+            is now recruting motivated students from all the campus faculties
+            that want to take part in the first project ever.
+          </p>
+          <p>
+            Aurora would not have been possible without the sheer determination
+            of the founders, the aerospace department professors and the support
+            of Skyward, the rocketry team of the Politecnico of Milan.
+          </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </ParallaxLayer>
 
   <StickyLayer class="z-1" offset={{ top: 4, bottom: 0 }}>
     <div
