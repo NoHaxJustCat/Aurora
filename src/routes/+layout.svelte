@@ -43,5 +43,5 @@
     class=" sm:flex sm:items-center sm:justify-between bottom-0 mt-auto"
   ></div>
   <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-  <FooterCopyright href="/" by="Flowbite™" />
+  <FooterCopyright href="/" by="Aurora Rocketry Team" />
 </Footer>
