@@ -116,10 +116,10 @@
         </div>
       </div>
       <div
-        class="flex flex-grow h-full text-white justify-center py-12 lg:py-24 px-4 lg:px-20 lg:text-lg sm:text-lg text-sm"
+        class="flex flex-grow h-full text-white justify-center py-8 lg:py-24 px-4 lg:px-20 lg:text-lg sm:text-lg text-sm"
       >
         <div
-          class="flex flex-col w-full translate-x-1 mb-12 lg:mb-32 justify-between"
+          class="flex flex-col w-full translate-x-1 mb-20 lg:mb-32 justify-between"
         >
           <div class="flex items-center">
             <div
@@ -188,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col w-full mt-12 lg:mt-32 justify-between">
+        <div class="flex flex-col w-full mt-20 lg:mt-32 justify-between">
           <div class="flex items-center">
             <div class="w-6 h-12 lg:w-12 lg:h-24">
               <div
