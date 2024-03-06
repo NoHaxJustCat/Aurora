@@ -7,14 +7,29 @@
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(17, 24, 39) ;" />
 
   <ParallaxLayer rate={-0.5}>
-    <div class=" opacity-0 lg:opacity-100" id="stars"></div>
+    <div class="opacity-0 lg:opacity-100" id="stars"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={-0.5} offset={2}>
+    <div class="opacity-0 lg:opacity-100" id="stars"></div>
   </ParallaxLayer>
 
   <ParallaxLayer rate={-1}>
-    <div class="opacity-100" id="stars2"></div>
+    <div class="opacity-0 lg:opacity-100" id="stars2"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={-1.5}>
+  <ParallaxLayer rate={0.5}>
+    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={0.5} offset={1.5}>
+    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={0.5} offset={2.5}>
+    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={0.5} offset={3.5}>
+    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={0.5} offset={4.5}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
 
