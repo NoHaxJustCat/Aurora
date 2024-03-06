@@ -19,7 +19,7 @@
 <Navbar class="border-b border-white">
   <NavBrand href="/">
     <img
-      src="/static/AuroraLogo.svg"
+      src="/AuroraLogo.svg"
       class="me-3 h-8 sm:h-12 hover:fill-primary-700"
       alt="Aurora Logo"
     />
