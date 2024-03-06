@@ -134,7 +134,7 @@
         class="flex flex-grow h-full text-white justify-center py-8 lg:py-24 px-4 lg:px-20 lg:text-lg sm:text-lg text-sm"
       >
         <div
-          class="flex flex-col w-full translate-x-1 mb-16 lg:mb-32 justify-between"
+          class="flex flex-col w-full translate-x-1 mb-16 lg:mb-32 space-y-4 lg:space-y-0 justify-between"
         >
           <div class="flex items-center">
             <div
