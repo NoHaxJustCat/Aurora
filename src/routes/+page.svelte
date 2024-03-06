@@ -7,15 +7,15 @@
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(17, 24, 39) ;" />
 
   <ParallaxLayer rate={-0.5}>
-    <div id="stars"></div>
+    <div class=" opacity-0 lg:opacity-100" id="stars"></div>
   </ParallaxLayer>
 
   <ParallaxLayer rate={-1}>
-    <div id="stars2"></div>
+    <div class="opacity-0 lg:opacity-100" id="stars2"></div>
   </ParallaxLayer>
 
   <ParallaxLayer rate={-1.5}>
-    <div id="stars3"></div>
+    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
 
   <StickyLayer offset={{ top: 0, bottom: 0 }}>
