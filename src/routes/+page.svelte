@@ -291,10 +291,10 @@
     style="background-color: rgb(17, 24, 39);"
   >
     <div
-      class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 text-white"
+      class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 px-8 text-white"
     >
-      <h1 class="text-4xl lg:text-5xl">We are looking for students</h1>
-      <div class="pt-8 text-md lg:text-lg font-['Poppins']">
+      <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting</h1>
+      <div class="pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
         <div>
           <span> The Team is now hosting this year first </span>
           <span class="text-primary-700"> recruiting round.</span>
@@ -333,6 +333,7 @@
     </div></ParallaxLayer
   >
 </Parallax>
+<div></div>
 
 <style>
   .bl-quarter {
