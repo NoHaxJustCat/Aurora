@@ -9,27 +9,12 @@
   <ParallaxLayer rate={-0.5}>
     <div id="stars"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={-0.5} offset={2}>
-    <div id="stars"></div>
-  </ParallaxLayer>
 
   <ParallaxLayer rate={-1}>
     <div id="stars2"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.5}>
-    <div id="stars3"></div>
-  </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={1.5}>
-    <div id="stars3"></div>
-  </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={2.5}>
-    <div id="stars3"></div>
-  </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={3.5}>
-    <div id="stars3"></div>
-  </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={4.5}>
+  <ParallaxLayer rate={-1.5}>
     <div id="stars3"></div>
   </ParallaxLayer>
 
