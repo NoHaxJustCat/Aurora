@@ -294,7 +294,7 @@
       class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 px-8 text-white"
     >
       <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting</h1>
-      <div class="pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
+      <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
         <div>
           <span> The Team is now hosting this year first </span>
           <span class="text-primary-700"> recruiting round.</span>
@@ -324,9 +324,7 @@
           <span
             >to your company commensurate with the level of support received.
             This may include showcasing your company name and logo on our
-            website, featuring your logo on our rockets and t-shirts, and
-            sharing posts on Instagram and LinkedIn that highlight and
-            acknowledge your contribution to our journey.</span
+            website, featuring your logo on our rockets and t-shirts.</span
           >
         </div>
       </div>
