@@ -3,7 +3,7 @@
   import AnimatedLogo from "../components/AnimatedLogo.svelte";
 </script>
 
-<Parallax sections={5.9}>
+<Parallax sections={6}>
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(17, 24, 39) ;" />
 
   <ParallaxLayer rate={-0.5}>
