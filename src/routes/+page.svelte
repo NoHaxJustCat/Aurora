@@ -3,7 +3,7 @@
   import AnimatedLogo from "../components/AnimatedLogo.svelte";
 </script>
 
-<Parallax sections={6}>
+<Parallax sections={4.5}>
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(17, 24, 39) ;" />
 
   <ParallaxLayer rate={-0.5}>
@@ -274,64 +274,44 @@
       </div>
     </div></ParallaxLayer
   >
-
-  <StickyLayer class="z-1" offset={{ top: 4, bottom: 0 }}>
-    <div
-      class="text-center w-96 md:w-fit absolute flex flex-col top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
-    >
-      <div class=" text-white">Help the Team</div>
-      <div class="ml-3 text-primary-700">Grow</div>
-    </div>
-  </StickyLayer>
-
-  <ParallaxLayer
-    rate={1.5}
-    offset={5}
-    span={2}
-    style="background-color: rgb(17, 24, 39);"
-  >
-    <div
-      class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 px-8 text-white"
-    >
-      <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting</h1>
-      <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
-        <div>
-          <span> The Team is now hosting this year first </span>
-          <span class="text-primary-700"> recruiting round.</span>
-          <span>
-            If you are a student of the University of Bologna and would like to
-            join the team keep an eye on our Instagram page and website.
-          </span>
-        </div>
-        <p>
-          We will try to take as many students as possible, but be aware that
-          some departments may have some restrictions due to the limited amount
-          of work.
-        </p>
-      </div>
-      <h2 class="pt-8 text-3xl">Sponsorships</h2>
-
-      <div class="pt-8 text-md lg:text-lg font-['Poppins']">
-        <p>
-          Aurora aspires to reach new heights, and we are seeking support to
-          fuel our journey. If your company is interested in providing material
-          or financial assistance, please don't hesitate to reach out to our
-          team.
-        </p>
-        <div>
-          <span>We are committed to </span>
-          <span class="text-primary-700">offering visibility</span>
-          <span
-            >to your company commensurate with the level of support received.
-            This may include showcasing your company name and logo on our
-            website, featuring your logo on our rockets and t-shirts.</span
-          >
-        </div>
-      </div>
-    </div></ParallaxLayer
-  >
 </Parallax>
-<div></div>
+<div
+  class="w-full bg-[#111827] h-fit border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 px-8 text-white"
+>
+  <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting</h1>
+  <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
+    <div>
+      <span> The Team is now hosting this year first </span>
+      <span class="text-primary-700"> recruiting round.</span>
+      <span>
+        If you are a student of the University of Bologna and would like to join
+        the team keep an eye on our Instagram page and website.
+      </span>
+    </div>
+    <p>
+      We will try to take as many students as possible, but be aware that some
+      departments may have some restrictions due to the limited amount of work.
+    </p>
+  </div>
+  <h2 class="pt-8 text-3xl">Sponsorships</h2>
+
+  <div class="pt-8 text-md lg:text-lg font-['Poppins']">
+    <p>
+      Aurora aspires to reach new heights, and we are seeking support to fuel
+      our journey. If your company is interested in providing material or
+      financial assistance, please don't hesitate to reach out to our team.
+    </p>
+    <div>
+      <span>We are committed to </span>
+      <span class="text-primary-700">offering visibility</span>
+      <span
+        >to your company commensurate with the level of support received. This
+        may include showcasing your company name and logo on our website,
+        featuring your logo on our rockets and t-shirts.</span
+      >
+    </div>
+  </div>
+</div>
 
 <style>
   .bl-quarter {
