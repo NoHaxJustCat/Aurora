@@ -34,10 +34,10 @@
   </ParallaxLayer>
 
   <StickyLayer offset={{ top: 0, bottom: 0 }}>
-    <div class="flex justify-center mt-[25%] lg:mt-[10%]">
+    <div class="flex justify-center mt-[30%] lg:mt-[10%]">
       <div class="flex flex-col">
         <div class="flex lg:-space-x-16 -space-x-20">
-          <div id="logo" class="md:scale-100 scale-75 mt-4">
+          <div class="logo md:scale-100 scale-75 mt-4 md:translate-x-0">
             <AnimatedLogo />
           </div>
           <div
@@ -64,16 +64,21 @@
     style="background-color: rgb(17, 24, 39);"
   >
     <div class="w-full h-full border-b border-t border-white">
-      <div class="md:px-32 md:py-16 lg:p-20 lg:px-80 py-10 text-white">
-        <h1 class=" text-5xl">The Project</h1>
+      <div class="md:px-32 md:py-16 lg:p-20 px-10 lg:px-72 py-10 text-white">
+        <h1 class="text-4xl lg:text-5xl">The Project</h1>
         <div
           class="text-justify text-white text-md md:text-lg font-['Poppins'] space-y-3"
         >
-          <p class=" pt-8">
-            Aurora Rocketry is a student organization of the University of
-            Bologna based in the Forlì Campus. Our primary goal is cultivating
-            skilled and passionate engineers that can work together as a team.
-          </p>
+          <div class="pt-8">
+            <span> Aurora Rocketry is a</span>
+            <span class="text-primary-700"> student organization </span>
+            <span> of the </span>
+            <span class="text-primary-700"> University of Bologna </span>
+            <span>
+              based in the Forlì Campus. Our primary goal is cultivating skilled
+              and passionate engineers that can work together as a team.
+            </span>
+          </div>
           <p>
             We aim to do so by researching, designing and building rockets and
             rocket engines to take part in student competitions around Europe
@@ -96,7 +101,7 @@
 
   <StickyLayer offset={{ top: 2, bottom: 0 }}>
     <div
-      class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-6xl font-bold"
+      class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
       <span class=" text-white">Meet The Team</span>
       <span class="ml-3 text-primary-700"> Departments</span>
@@ -111,161 +116,159 @@
 ;"
   >
     <div class="w-full border-b border-t border-white h-full">
-      <div class="absolute justify-center w-full h-full flex">
+      <div class=" absolute justify-center w-full h-full flex">
         <div class="grid grid-cols-1 my-[5%]">
           <div class="h-full w-full flex items-center">
-            <div class="w-12 h-24 -translate-x-6">
+            <div class="absolute w-1 h-[94%] top-[3%]">
               <div
-                class="br-quarter absolute top-0 right-0 h-12 w-12 border-primary-700 border-r-2 border-b-2"
-              ></div>
+                class="h-1/2 bg-gradient-to-b from-[#111827] via-15% via-primary-700 to bg-primary-700"
+              />
               <div
-                class="tr-quarter absolute bottom-0 right-0 h-12 w-12 border-primary-700 border-r-2 border-t-2"
-              ></div>
+                class="h-1/2 bg-gradient-to-t from-[#111827] via-15% via-primary-700 to bg-primary-700"
+              />
             </div>
           </div>
-          <div class="h-full w-full flex items-center">
-            <div class="w-12 h-24 translate-x-6">
-              <div
-                class="bl-quarter absolute top-0 right-0 h-12 w-12 border-primary-700 border-l-2 border-b-2"
-              ></div>
-              <div
-                class="tl-quarter absolute bottom-0 right-0 h-12 w-12 border-primary-700 border-l-2 border-t-2"
-              ></div>
-            </div>
-          </div>
-          <div class="h-full w-full flex items-center">
-            <div class="w-12 h-24 -translate-x-6">
-              <div
-                class="br-quarter absolute top-0 right-0 h-12 w-12 border-primary-700 border-r-2 border-b-2"
-              ></div>
-              <div
-                class="tr-quarter absolute bottom-0 right-0 h-12 w-12 border-primary-700 border-r-2 border-t-2"
-              ></div>
-            </div>
-          </div>
-          <div class="h-full w-full flex items-center">
-            <div class="w-12 h-24 translate-x-6">
-              <div
-                class="bl-quarter absolute top-0 right-0 h-12 w-12 border-primary-700 border-l-2 border-b-2"
-              ></div>
-              <div
-                class="tl-quarter absolute bottom-0 right-0 h-12 w-12 border-primary-700 border-l-2 border-t-2"
-              ></div>
-            </div>
-          </div>
-          <div class="h-full w-full flex items-center">
-            <div class="w-12 h-24 -translate-x-6">
-              <div
-                class="br-quarter absolute top-0 right-0 h-12 w-12 border-primary-700 border-r-2 border-b-2"
-              ></div>
-              <div
-                class="tr-quarter absolute bottom-0 right-0 h-12 w-12 border-primary-700 border-r-2 border-t-2"
-              ></div>
-            </div>
-          </div>
-          <div class="h-full w-full flex items-center">
-            <div class="w-12 h-24 translate-x-6">
-              <div
-                class="bl-quarter absolute top-0 right-0 h-12 w-12 border-primary-700 border-l-2 border-b-2"
-              ></div>
-              <div
-                class="tl-quarter absolute bottom-0 right-0 h-12 w-12 border-primary-700 border-l-2 border-t-2"
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div class="absolute w-1 h-[94%] top-[3%]">
-          <div
-            class="h-1/2 bg-gradient-to-b from-[#111827] via-15% via-primary-700 to bg-primary-700"
-          />
-          <div
-            class="h-1/2 bg-gradient-to-t from-[#111827] via-15% via-primary-700 to bg-primary-700"
-          />
         </div>
       </div>
       <div
-        class="grid w-full h-full grid-cols-2 gap-x-24 py-[5%] px-8 md:px-32 lg:px-60 text-white"
+        class="flex flex-grow h-full text-white justify-center py-12 lg:py-24 px-8 lg:px-20 lg:text-lg sm:text-lg text-sm"
       >
-        <div
-          class="bg-[#000117] h-[130%] -translate-y-[10%] rounded-lg w-full border-2 border-primary-700"
-        >
-          <div class="absolute md:p-4 p-2">
-            <h1 class="md:top-4 md:left-4 text-lg md:text-3xl">
-              Mission Analysis
-            </h1>
-            <p class="text-md lg:text-lg mt-2">
-              Plan the mission and estimate the trajectory with software.
-              Collaborate with the other departments to make sure the goal is
-              reached.
-            </p>
+        <div class="flex flex-col w-full translate-x-1 mb-32 justify-between">
+          <div class="flex items-center">
+            <div
+              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+            >
+              <div class="md:p-4 p-2">
+                <h1 class="text-lg sm:text-xl md:text-3xl">Mission Analysis</h1>
+                <p class="mt-1 lg:mt-2">
+                  Plan the mission and estimate the trajectory with software.
+                  Collaborate with the other departments to make sure the goal
+                  is reached.
+                </p>
+              </div>
+            </div>
+            <div class="w-6 h-12 lg:w-12 lg:h-24">
+              <div
+                class="br-quarter h-6 w-6 md:h-12 md:w-12 border-primary-700 border-r-2 border-b-2"
+              ></div>
+              <div
+                class="tr-quarter h-6 w-6 md:h-12 md:w-12 border-primary-700 border-r-2 border-t-2"
+              ></div>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+            >
+              <div class="md:p-4 p-2">
+                <h1 class="text-lg sm:text-xl md:text-3xl">Structure</h1>
+                <p class="mt-1 lg:mt-2">
+                  Transform the project into reality by utilizing CAD for rocket
+                  part design. Craft components using DIY tools or 3D printing,
+                  and then assemble them for completion.
+                </p>
+              </div>
+            </div>
+            <div class="w-6 h-12 lg:w-12 lg:h-24">
+              <div
+                class="br-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
+              ></div>
+              <div
+                class="tr-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
+              ></div>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+            >
+              <div class="md:p-4 p-2">
+                <h1 class="text-lg sm:text-xl md:text-3xl">
+                  Electronics and Software
+                </h1>
+                <p class="mt-1 lg:mt-2">
+                  Make the on-board the electronics of the rocket as well as the
+                  ground station. Basic at firsts, in the next projects it will
+                  develop custom boards and control systems.
+                </p>
+              </div>
+            </div>
+            <div class="w-6 h-12 lg:w-12 lg:h-24">
+              <div
+                class="br-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
+              ></div>
+              <div
+                class="tr-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
+              ></div>
+            </div>
           </div>
         </div>
-        <div />
-        <div />
-        <div
-          class="bg-[#000117] h-[130%] -translate-y-[10%] rounded-lg w-full border-2 border-primary-700"
-        >
-          <div class="absolute md:p-4 p-2">
-            <h1 class="md:top-4 md:left-4 text-lg md:text-3xl">Propulsion</h1>
-            <p class="text-md lg:text-lg mt-2">
-              Choose the team propulsion system and assembly it. For future
-              project it will provide the team with a student designed solid,
-              hybrid or liquid propulsion system.
-            </p>
+        <div class="flex flex-col w-full mt-32 justify-between">
+          <div class="flex items-center">
+            <div class="w-6 h-12 lg:w-12 lg:h-24">
+              <div
+                class="bl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
+              ></div>
+              <div
+                class="tl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
+              ></div>
+            </div>
+            <div
+              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+            >
+              <div class="md:p-4 p-2">
+                <h1 class="text-lg sm:text-xl md:text-3xl">Propulsion</h1>
+                <p class="mt-1 lg:mt-2">
+                  Choose the team propulsion system and assembly it. For future
+                  project it will provide the team with a student designed
+                  solid, hybrid or liquid propulsion system.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div
-          class="bg-[#000117] rounded-lg w-full h-[130%] -translate-y-[10%] border-2 border-primary-700"
-        >
-          <div class="absolute md:p-4 p-2">
-            <h1 class="md:top-4 md:left-4 text-lg md:text-3xl">Structure</h1>
-            <p class="text-md lg:text-lg mt-2">
-              Transform the project into reality by utilizing CAD for rocket
-              part design. Craft components using DIY tools or 3D printing, and
-              then assemble them for completion.
-            </p>
+          <div class="flex items-center">
+            <div class="w-6 h-12 lg:w-12 lg:h-24">
+              <div
+                class="bl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
+              ></div>
+              <div
+                class="tl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
+              ></div>
+            </div>
+            <div
+              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+            >
+              <div class="md:p-4 p-2">
+                <h1 class="text-lg sm:text-xl md:text-3xl">Logistics</h1>
+                <p class="mt-1 lg:mt-2">
+                  Manage the social media accounts, make sure the team is known
+                  across the University. Find sponsors and allow the team to
+                  reach new heights.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div />
-        <div />
-        <div
-          class="bg-[#000117] rounded-lg w-full h-[130%] -translate-y-[10%] border-2 border-primary-700"
-        >
-          <div class="absolute md:p-4 p-2">
-            <h1 class="md:top-4 md:left-4 text-lg md:text-3xl">
-              Electronics and Software
-            </h1>
-            <p class="text-md lg:text-lg mt-2">
-              Make the on-board the electronics of the rocket as well as the
-              ground station. Basic at firsts, in the next projects it will
-              develop custom boards and control systems.
-            </p>
-          </div>
-        </div>
-        <div
-          class="bg-[#000117] rounded-lg w-full h-[130%] -translate-y-[10%] border-2 border-primary-700"
-        >
-          <div class="absolute md:p-4 p-2">
-            <h1 class="md:top-4 md:left-4 text-lg md:text-3xl">Aerodynamics</h1>
-            <p class="text-md lg:text-lg mt-2">
-              Collaborate with Mission Analysis to choose the best rocket design
-              to reduce drag at minimum. As we progress expected to design
-              airbrakes.
-            </p>
-          </div>
-        </div>
-        <div />
-        <div />
-        <div
-          class="bg-[#000117] rounded-lg w-full h-[130%] -translate-y-[10%] border-2 border-primary-700"
-        >
-          <div class="absolute md:p-4 p-2">
-            <h1 class="md:top-4 md:left-4 text-lg md:text-3xl">Media</h1>
-            <p class="text-md lg:text-lg mt-2">
-              Manage the social media accounts, make sure the team is known
-              across the University. Find sponsors and allow the team to reach
-              new heights.
-            </p>
+          <div class="flex items-center">
+            <div class="w-6 h-12 lg:w-12 lg:h-24">
+              <div
+                class="bl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
+              ></div>
+              <div
+                class="tl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
+              ></div>
+            </div>
+            <div
+              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+            >
+              <div class="md:p-4 p-2">
+                <h1 class="text-lg sm:text-xl md:text-3xl">Aerodynamics</h1>
+                <p class="mt-1 lg:mt-2">
+                  Collaborate with Mission Analysis to choose the best rocket
+                  design to reduce drag at minimum. As we progress expected to
+                  design airbrakes.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -274,10 +277,10 @@
 
   <StickyLayer class="z-1" offset={{ top: 4, bottom: 0 }}>
     <div
-      class="text-center absolute flex flex-col top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-6xl font-bold"
+      class="text-center w-96 md:w-fit absolute flex flex-col top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
-      <span class=" text-white">Help the Team</span>
-      <span class="ml-3 text-primary-700"> Grow</span>
+      <div class=" text-white">Help the Team</div>
+      <div class="ml-3 text-primary-700">Grow</div>
     </div>
   </StickyLayer>
 
@@ -290,17 +293,20 @@
     <div
       class="w-full h-full border-b border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 text-white"
     >
-      <h1 class="text-5xl">We are looking for students</h1>
+      <h1 class="text-4xl lg:text-5xl">We are looking for students</h1>
       <div class="pt-8 text-md lg:text-lg font-['Poppins']">
-        <p>
-          The Team is soon to host this year admission process. If you are a
-          student of the University of Bologna and would like to join the team
-          keep an eye on our Instagram page and website.
-        </p>
+        <div>
+          <span> The Team is now hosting this year first </span>
+          <span class="text-primary-700"> recruiting round.</span>
+          <span>
+            If you are a student of the University of Bologna and would like to
+            join the team keep an eye on our Instagram page and website.
+          </span>
+        </div>
         <p>
           We will try to take as many students as possible, but be aware that
-          some departments may have some limits due to the limited amount of
-          work.
+          some departments may have some restrictions due to the limited amount
+          of work.
         </p>
       </div>
       <h2 class="pt-8 text-3xl">Sponsorships</h2>
@@ -312,13 +318,17 @@
           or financial assistance, please don't hesitate to reach out to our
           team.
         </p>
-        <p>
-          We are committed to offering visibility to your company commensurate
-          with the level of support received. This may include showcasing your
-          company name and logo on our website, featuring your logo on our
-          rockets, and sharing posts on Instagram and LinkedIn that highlight
-          and acknowledge your contribution to our journey.
-        </p>
+        <div>
+          <span>We are committed to </span>
+          <span class="text-primary-700">offering visibility</span>
+          <span
+            >to your company commensurate with the level of support received.
+            This may include showcasing your company name and logo on our
+            website, featuring your logo on our rockets and t-shirts, and
+            sharing posts on Instagram and LinkedIn that highlight and
+            acknowledge your contribution to our journey.</span
+          >
+        </div>
       </div>
     </div></ParallaxLayer
   >
@@ -341,7 +351,7 @@
     border-radius: 0 100% 0 0;
   }
 
-  #logo {
+  .logo {
     animation: logoAnimation 3s ease forwards;
   }
 
@@ -366,10 +376,10 @@
 
   @keyframes logoAnimation {
     0% {
-      transform: translateX(150px);
+      transform: translateX(40%);
     }
     50% {
-      transform: translateX(150px);
+      transform: translateX(40%);
     }
   }
 

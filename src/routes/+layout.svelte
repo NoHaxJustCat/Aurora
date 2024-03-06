@@ -32,7 +32,7 @@
 
   <NavUl>
     <NavLi href="/">Home</NavLi>
-    <NavLi href="/theteam">The Team</NavLi>
+    <NavLi href="/team">The Team</NavLi>
     <NavLi href="/contact">Contact</NavLi>
   </NavUl>
 </Navbar>
