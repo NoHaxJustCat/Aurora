@@ -116,7 +116,7 @@
         </div>
       </div>
       <div
-        class="flex flex-grow h-full text-white justify-center py-12 lg:py-24 px-8 lg:px-20 lg:text-lg sm:text-lg text-sm"
+        class="flex flex-grow h-full text-white justify-center py-12 lg:py-24 px-4 lg:px-20 lg:text-lg sm:text-lg text-sm"
       >
         <div class="flex flex-col w-full translate-x-1 mb-32 justify-between">
           <div class="flex items-center">
@@ -168,9 +168,7 @@
               class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
-                <h1 class="text-lg sm:text-xl md:text-3xl">
-                  Electronics and Software
-                </h1>
+                <h1 class="text-lg sm:text-xl md:text-3xl">Electronics</h1>
                 <p class="mt-1 lg:mt-2">
                   Make the on-board the electronics of the rocket as well as the
                   ground station. Basic at firsts, in the next projects it will
