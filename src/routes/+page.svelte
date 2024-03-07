@@ -6,34 +6,34 @@
 <Parallax sections={4.5}>
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(17, 24, 39) ;" />
 
-  <ParallaxLayer rate={-0.5}>
+  <ParallaxLayer rate={-0.4}>
     <div class="opacity-0 lg:opacity-100" id="stars"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={-0.5} offset={2}>
+  <ParallaxLayer rate={-0.6} offset={2}>
     <div class="opacity-0 lg:opacity-100" id="stars"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={-1}>
+  <ParallaxLayer rate={-1.2}>
     <div class="opacity-0 lg:opacity-100" id="stars2"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.5}>
+  <ParallaxLayer rate={0.7}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={1.5}>
+  <ParallaxLayer rate={0.7} offset={1.5}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={2.5}>
+  <ParallaxLayer rate={0.7} offset={2.5}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={3.5}>
+  <ParallaxLayer rate={0.7} offset={3.5}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={0.5} offset={4.5}>
+  <ParallaxLayer rate={0.7} offset={4.5}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
 
-  <StickyLayer offset={{ top: 0, bottom: 0 }}>
+  <ParallaxLayer rate={-0.2} offset={0}>
     <div class="flex justify-center mt-[30%] lg:mt-[10%]">
       <div class="flex flex-col">
         <div class="flex lg:-space-x-16 -space-x-20">
@@ -55,12 +55,12 @@
         </div>
       </div>
     </div>
-  </StickyLayer>
+  </ParallaxLayer>
 
   <ParallaxLayer
-    rate={1.5}
+    rate={0.4}
     offset={1}
-    span={1.25}
+    span={1}
     style="background-color: rgb(17, 24, 39);"
   >
     <div class="w-full h-full border-b border-t border-white">
