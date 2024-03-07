@@ -38,10 +38,32 @@
 </Navbar>
 
 <slot />
-<Footer footerType="logo" class=" dark:bg-[#111827] rounded-none z-30">
-  <div
-    class=" sm:flex sm:items-center sm:justify-between bottom-0 mt-auto"
-  ></div>
-  <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-  <FooterCopyright href="/" by="Aurora Rocketry Team" />
-</Footer>
+
+<footer class="bg-[#111827]">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="md:flex md:justify-between">
+      <div class="mb-6 md:mb-0">
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img
+            src="static/AuroraLogo.svg"
+            class="h-8 scale-150 me-3"
+            alt="Aurora Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Aurora Rocketry Team</span
+          >
+        </a>
+      </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        >© 2024 <a href="https://flowbite.com/" class="hover:underline"
+          >Aurora Rocketry Team</a
+        >. All Rights Reserved.
+      </span>
+      <div class="flex mt-4 sm:justify-center sm:mt-0"></div>
+    </div>
+  </div>
+</footer>
