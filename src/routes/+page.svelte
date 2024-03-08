@@ -56,11 +56,11 @@
   <ParallaxLayer
     rate={0.4}
     offset={1}
-    span={1}
+    span={0.75}
     style="background-color: rgba(0, 0,0 ,0);"
   >
     <!-- style="background-color: rgb(17, 24, 39);" -->
-    <div class="w-full h-full">
+    <div class="w-full h-fit">
       <div class="md:px-32 md:py-16 lg:p-20 px-10 lg:px-72 py-10 text-white">
         <h1 class="text-4xl lg:text-5xl">The Project</h1>
         <div
@@ -118,10 +118,10 @@
           <div class="h-full w-full flex items-center">
             <div class="absolute w-1 h-[94%] top-[3%]">
               <div
-                class="h-1/2 bg-gradient-to-b from-[#111827] via-15% via-primary-700 to bg-primary-700"
+                class="h-1/2 bg-gradient-to-b from-[#000117] via-15% via-primary-700 to bg-primary-700"
               />
               <div
-                class="h-1/2 bg-gradient-to-t from-[#111827] via-15% via-primary-700 to bg-primary-700"
+                class="h-1/2 bg-gradient-to-t from-[#000117] via-15% via-primary-700 to bg-primary-700"
               />
             </div>
           </div>
@@ -135,7 +135,7 @@
         >
           <div class="flex items-center">
             <div
-              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+              class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
                 <h1 class="text-lg sm:text-xl md:text-3xl">Mission Analysis</h1>
@@ -157,7 +157,7 @@
           </div>
           <div class="flex items-center">
             <div
-              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+              class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
                 <h1 class="text-lg sm:text-xl md:text-3xl">Structure</h1>
@@ -179,7 +179,7 @@
           </div>
           <div class="flex items-center">
             <div
-              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+              class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
                 <h1 class="text-lg sm:text-xl md:text-3xl">Electronics</h1>
@@ -211,7 +211,7 @@
               ></div>
             </div>
             <div
-              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+              class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
                 <h1 class="text-lg sm:text-xl md:text-3xl">Propulsion</h1>
@@ -233,7 +233,7 @@
               ></div>
             </div>
             <div
-              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+              class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
                 <h1 class="text-lg sm:text-xl md:text-3xl">Logistics</h1>
@@ -255,7 +255,7 @@
               ></div>
             </div>
             <div
-              class="bg-[#000117] rounded-lg w-full border-2 border-primary-700"
+              class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
                 <h1 class="text-lg sm:text-xl md:text-3xl">Aerodynamics</h1>
