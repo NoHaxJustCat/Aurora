@@ -1,10 +1,10 @@
 <script>
-  import { Parallax, ParallaxLayer, StickyLayer } from "svelte-parallax";
+  import { Parallax, ParallaxLayer } from "svelte-parallax";
   import AnimatedLogo from "../components/AnimatedLogo.svelte";
 </script>
 
-<Parallax sections={4.5}>
-  <ParallaxLayer rate={0} span={8} style="background-color:rgb(17, 24, 39) ;" />
+<Parallax sections={5.5}>
+  <ParallaxLayer rate={0} span={8} style="background-color:rgb(0, 1, 23) ;" />
 
   <ParallaxLayer rate={-0.4}>
     <div class="opacity-0 lg:opacity-100" id="stars"></div>
@@ -17,19 +17,15 @@
     <div class="opacity-0 lg:opacity-100" id="stars2"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.7}>
+  <ParallaxLayer rate={-0.3}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={0.7} offset={1.5}>
+
+  <ParallaxLayer rate={0.7} offset={2}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={0.7} offset={2.5}>
-    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
-  </ParallaxLayer>
-  <ParallaxLayer rate={0.7} offset={3.5}>
-    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
-  </ParallaxLayer>
-  <ParallaxLayer rate={0.7} offset={4.5}>
+
+  <ParallaxLayer rate={0.7} offset={4}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
 
@@ -61,9 +57,10 @@
     rate={0.4}
     offset={1}
     span={1}
-    style="background-color: rgb(17, 24, 39);"
+    style="background-color: rgba(0, 0,0 ,0);"
   >
-    <div class="w-full h-full border-b border-t border-white">
+    <!-- style="background-color: rgb(17, 24, 39);" -->
+    <div class="w-full h-full">
       <div class="md:px-32 md:py-16 lg:p-20 px-10 lg:px-72 py-10 text-white">
         <h1 class="text-4xl lg:text-5xl">The Project</h1>
         <div
@@ -99,23 +96,23 @@
     </div>
   </ParallaxLayer>
 
-  <StickyLayer offset={{ top: 2, bottom: 0 }}>
+  <ParallaxLayer rate={0.8} offset={2}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
       <span class=" text-white">Meet The Team</span>
       <span class="ml-3 text-primary-700"> Departments</span>
     </div>
-  </StickyLayer>
+  </ParallaxLayer>
 
   <ParallaxLayer
-    rate={1.5}
+    rate={0.4}
     offset={3}
     span={1.25}
-    style="background-color: rgb(17, 24, 39)
+    style="background-color: rgba(0, 0, 0, 0)
 ;"
   >
-    <div class="w-full border-b border-t border-white h-full">
+    <div class="w-full h-full">
       <div class=" absolute justify-center w-full h-full flex">
         <div class="grid grid-cols-1 my-[5%]">
           <div class="h-full w-full flex items-center">
@@ -272,13 +269,22 @@
           </div>
         </div>
       </div>
-    </div></ParallaxLayer
-  >
+    </div>
+  </ParallaxLayer>
+
+  <ParallaxLayer rate={0.8} offset={4.25}>
+    <div
+      class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
+    >
+      <span class=" text-white">Help the Team</span>
+      <span class="ml-3 text-primary-700"> Grow...</span>
+    </div>
+  </ParallaxLayer>
 </Parallax>
 <div
   class="w-full bg-[#111827] h-fit border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 px-8 text-white"
 >
-  <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting</h1>
+  <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting!</h1>
   <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
     <div>
       <span> The Team is now hosting this year first </span>
