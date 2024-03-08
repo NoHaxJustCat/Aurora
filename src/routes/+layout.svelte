@@ -16,15 +16,10 @@
   } from "flowbite-svelte";
 </script>
 
-<Navbar class="border-b border-white">
+<Navbar class="dark:bg-[#02020c]">
   <NavBrand href="/">
-    <img
-      src="/AuroraLogo.svg"
-      class="me-3 h-8 sm:h-12 hover:fill-primary-700"
-      alt="Aurora Logo"
-    />
     <span class="self-center whitespace-nowrap text-xl font-semibold"
-      >Aurora</span
+      >Aurora Rocketry Team</span
     >
   </NavBrand>
 

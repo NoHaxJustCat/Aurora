@@ -4,30 +4,49 @@
 </script>
 
 <Parallax sections={4}>
-  <ParallaxLayer rate={0} span={8} style="background-color:rgb(0, 1, 23) ;" />
+  <ParallaxLayer rate={0} span={8} style="background-color:rgb(2, 2, 12) ;" />
 
-  <ParallaxLayer rate={-0.4}>
+  <ParallaxLayer rate={-1}>
+    <div class="lg:opacity-0 opacity-100" id="stars2"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={-1}>
+    <div class="lg:opacity-0 opacity-100" id="stars"></div>
+  </ParallaxLayer>
+
+  <ParallaxLayer rate={1}>
     <div class="opacity-0 lg:opacity-100" id="stars"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={-0.6} offset={2}>
+  <ParallaxLayer rate={1} offset={1}>
+    <div class="opacity-0 lg:opacity-100" id="stars"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={1} offset={2}>
+    <div class="opacity-0 lg:opacity-100" id="stars"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={1} offset={3}>
     <div class="opacity-0 lg:opacity-100" id="stars"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={-1.2}>
+  <ParallaxLayer rate={0.5}>
+    <div class="opacity-0 lg:opacity-100" id="stars2"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={0.5} offset={1.5}>
+    <div class="opacity-0 lg:opacity-100" id="stars2"></div>
+  </ParallaxLayer>
+  <ParallaxLayer rate={0.5} offset={3}>
     <div class="opacity-0 lg:opacity-100" id="stars2"></div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={-0.3}>
+  <ParallaxLayer rate={0.2}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer>
+  <ParallaxLayer rate={0.2} offset={2}>
+    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
+  </ParallaxLayer>
+  <!-- 
 
-  <ParallaxLayer rate={0.7} offset={2}>
+  <ParallaxLayer rate={1}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
-  </ParallaxLayer>
-
-  <ParallaxLayer rate={0.7} offset={4}>
-    <div class="opacity-0 lg:opacity-100" id="stars3"></div>
-  </ParallaxLayer>
+  </ParallaxLayer> -->
 
   <ParallaxLayer rate={-0.2} offset={0}>
     <div class="flex justify-center mt-[30%] lg:mt-[10%]">
