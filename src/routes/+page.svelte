@@ -3,7 +3,7 @@
   import AnimatedLogo from "../components/AnimatedLogo.svelte";
 </script>
 
-<Parallax sections={5.5}>
+<Parallax sections={4}>
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(0, 1, 23) ;" />
 
   <ParallaxLayer rate={-0.4}>
@@ -96,7 +96,7 @@
     </div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.8} offset={2}>
+  <ParallaxLayer rate={0.8} offset={1.9}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
@@ -106,8 +106,8 @@
   </ParallaxLayer>
 
   <ParallaxLayer
-    rate={0.4}
-    offset={3}
+    rate={0.8}
+    offset={2.3}
     span={1.25}
     style="background-color: rgba(0, 0, 0, 0)
 ;"
@@ -272,7 +272,7 @@
     </div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.8} offset={4.25}>
+  <ParallaxLayer rate={0.8} offset={3}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
