@@ -43,9 +43,9 @@
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
-        <a href="https://flowbite.com/" class="flex items-center">
+        <a href="https://aurorarocketry.eu/" class="flex items-center">
           <img
-            src="static/AuroraLogo.svg"
+            src="/AuroraLogo.svg"
             class="h-8 scale-150 me-3"
             alt="Aurora Logo"
           />
