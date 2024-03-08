@@ -1,4 +1,4 @@
-<div class="w-full min-h-screen px-20 md:px-64 p-8 lg:p-20 bg-[#111827]">
+<div class="w-full min-h-screen px-20 md:px-64 p-8 lg:p-20 bg-[#02020c]">
   <h1 class="text-4xl md:text-5xl text-white">Contact Us</h1>
   <div class="mt-6 lg:mt-12 lg:text-lg font-['Poppins']">
     <span class="text-white">
