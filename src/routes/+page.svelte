@@ -44,7 +44,7 @@
   </ParallaxLayer>
   <!-- 
 
-  <ParallaxLayer rate={1}>
+  <ParallaxLayer rsssate={1}>
     <div class="opacity-0 lg:opacity-100" id="stars3"></div>
   </ParallaxLayer> -->
 
