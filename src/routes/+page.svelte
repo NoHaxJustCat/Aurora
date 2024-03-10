@@ -115,7 +115,7 @@
     </div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.8} offset={1.9}>
+  <ParallaxLayer rate={0.5} offset={1.9}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
