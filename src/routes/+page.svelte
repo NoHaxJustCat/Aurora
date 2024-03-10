@@ -309,16 +309,19 @@
   <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
     <div>
       <span> The Team is now hosting this year first </span>
-      <a
-        class="text-primary-700 hover:underline"
-        href="https://docs.google.com/forms/d/1GZb4a6OZ_HzwcRJqJ_6lZvYGpSLTK_DYZJlV2F0B3Lo/edit#response=ACYDBNh4lF70KEALPBJAKW5hikwhB6FBBm1dziPxI6Y1vDpRZIfjU8lJRP7r2j2S7XRJqIk"
-      >
-        recruiting round.</a
-      >
+      <span class="text-primary-700 hover:underline"> recruiting round.</span>
       <span>
         If you are a student of the University of Bologna and would like to join
         the team keep an eye on our Instagram page and website.
       </span>
+    </div>
+    <div class=" py-10">
+      <a
+        class="px-2 py-2 transform transition duration-250 border-primary-700 border-2 rounded-md hover:bg-primary-700 hover:text-[#111827] text-lg lg:text-xl font-semibold text-primary-700"
+        href="https://forms.gle/Hv14ezNK15ndfYmQA"
+      >
+        Submit Your Request</a
+      >
     </div>
     <p>
       We will try to take as many students as possible, but be aware that some
