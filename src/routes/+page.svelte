@@ -115,7 +115,7 @@
     </div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.5} offset={2}>
+  <ParallaxLayer rate={0.5} offset={1.9}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
@@ -125,14 +125,14 @@
   </ParallaxLayer>
 
   <ParallaxLayer
-    rate={0.8}
-    offset={2.3}
-    span={1.25}
+    rate={0.5}
+    offset={2.5}
+    span={1.35}
     style="background-color: rgba(0, 0, 0, 0)
 ;"
   >
-    <div class="w-full h-full">
-      <div class=" absolute justify-center w-full h-full flex">
+    <div class="w-full h-full lg:h-[85%]">
+      <div class=" absolute justify-center w-full h-full lg:h-[75%] flex">
         <div class="grid grid-cols-1 my-[5%]">
           <div class="h-full w-full flex items-center">
             <div class="absolute w-1 h-[94%] top-[3%]">
@@ -149,9 +149,7 @@
       <div
         class="flex flex-grow h-full text-white justify-center py-8 lg:py-24 px-4 lg:px-20 lg:text-lg sm:text-lg text-sm"
       >
-        <div
-          class="flex flex-col w-full translate-x-1 mb-16 lg:mb-32 space-y-4 lg:space-y-0 justify-between"
-        >
+        <div class="flex flex-col w-full translate-x-1 mb-32 justify-between">
           <div class="flex items-center">
             <div
               class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
@@ -201,7 +199,9 @@
               class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
-                <h1 class="text-lg sm:text-xl md:text-3xl">Electronics</h1>
+                <h1 class="text-lg sm:text-xl md:text-3xl">
+                  Electronics and Software
+                </h1>
                 <p class="mt-1 lg:mt-2">
                   Make the on-board the electronics of the rocket as well as the
                   ground station. Basic at firsts, in the next projects it will
@@ -219,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col w-full mt-16 lg:mt-32 justify-between">
+        <div class="flex flex-col w-full mt-32 justify-between">
           <div class="flex items-center">
             <div class="w-6 h-12 lg:w-12 lg:h-24">
               <div
@@ -291,12 +291,12 @@
     </div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.8} offset={3}>
+  <ParallaxLayer rate={0.5} offset={3.2}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
       <span class=" text-white">Help the Team</span>
-      <span class="ml-3 text-primary-700"> Grow...</span>
+      <span class="ml-3 text-primary-700"> Grow</span>
     </div>
   </ParallaxLayer>
 </Parallax>
