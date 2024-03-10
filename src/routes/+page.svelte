@@ -148,7 +148,9 @@
       <div
         class="flex flex-grow h-full text-white justify-center py-8 lg:py-24 px-4 lg:px-20 lg:text-lg sm:text-lg text-sm"
       >
-        <div class="flex flex-col w-full translate-x-1 mb-32 justify-between">
+        <div
+          class="flex flex-col w-full space-y-6 lg:space-y-0 translate-x-1 mb-32 justify-between"
+        >
           <div class="flex items-center">
             <div
               class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
@@ -218,7 +220,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col w-full mt-32 justify-between">
+        <div
+          class="flex flex-col w-full space-y-6 lg:space-y-0 mt-32 justify-between"
+        >
           <div class="flex items-center">
             <div class="w-6 h-12 md:w-9 md:h-18 lg:w-12 lg:h-24">
               <div
