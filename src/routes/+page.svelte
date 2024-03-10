@@ -9,9 +9,6 @@
   <ParallaxLayer rate={-1}>
     <div class="lg:opacity-0 opacity-100" id="stars2"></div>
   </ParallaxLayer>
-  <ParallaxLayer rate={-1}>
-    <div class="lg:opacity-0 opacity-100" id="stars"></div>
-  </ParallaxLayer>
 
   <ParallaxLayer rate={1}>
     <div class="opacity-0 lg:opacity-100" id="stars"></div>
