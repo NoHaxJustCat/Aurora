@@ -115,7 +115,7 @@
     </div>
   </ParallaxLayer>
 
-  <ParallaxLayer rate={0.5} offset={1.9}>
+  <ParallaxLayer rate={0.5} offset={2}>
     <div
       class="text-center flex flex-col absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] text-5xl lg:text-6xl font-bold"
     >
@@ -307,7 +307,12 @@
   <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
     <div>
       <span> The Team is now hosting this year first </span>
-      <span class="text-primary-700"> recruiting round.</span>
+      <a
+        class="text-primary-700 hover:underline"
+        href="https://docs.google.com/forms/d/1GZb4a6OZ_HzwcRJqJ_6lZvYGpSLTK_DYZJlV2F0B3Lo/edit#response=ACYDBNh4lF70KEALPBJAKW5hikwhB6FBBm1dziPxI6Y1vDpRZIfjU8lJRP7r2j2S7XRJqIk"
+      >
+        recruiting round.</a
+      >
       <span>
         If you are a student of the University of Bologna and would like to join
         the team keep an eye on our Instagram page and website.
