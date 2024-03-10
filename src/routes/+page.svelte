@@ -131,8 +131,10 @@
     style="background-color: rgba(0, 0, 0, 0)
 ;"
   >
-    <div class="w-full h-full lg:h-[85%]">
-      <div class=" absolute justify-center w-full h-full lg:h-[75%] flex">
+    <div class="w-full h-full md:[h-80%] lg:h-[85%]">
+      <div
+        class=" absolute justify-center w-full h-full md:[h-90%] lg:h-[85%] flex"
+      >
         <div class="grid grid-cols-1 my-[5%]">
           <div class="h-full w-full flex items-center">
             <div class="absolute w-1 h-[94%] top-[3%]">
@@ -163,12 +165,12 @@
                 </p>
               </div>
             </div>
-            <div class="w-6 h-12 lg:w-12 lg:h-24">
+            <div class="w-6 h-12 md:w-9 md:18 lg:w-12 lg:h-24">
               <div
-                class="br-quarter h-6 w-6 md:h-12 md:w-12 border-primary-700 border-r-2 border-b-2"
+                class="br-quarter h-6 w-6 md:h-9 md:w-9 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
               ></div>
               <div
-                class="tr-quarter h-6 w-6 md:h-12 md:w-12 border-primary-700 border-r-2 border-t-2"
+                class="tr-quarter h-6 w-6 md:h-9 md:w-9 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
               ></div>
             </div>
           </div>
@@ -185,12 +187,12 @@
                 </p>
               </div>
             </div>
-            <div class="w-6 h-12 lg:w-12 lg:h-24">
+            <div class="w-6 h-12 md:w-9 md:18 lg:w-12 lg:h-24">
               <div
-                class="br-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
+                class="br-quarter h-6 w-6 md:h-9 md:w-9 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
               ></div>
               <div
-                class="tr-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
+                class="tr-quarter h-6 w-6 md:h-9 md:w-9 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
               ></div>
             </div>
           </div>
@@ -209,24 +211,24 @@
                 </p>
               </div>
             </div>
-            <div class="w-6 h-12 lg:w-12 lg:h-24">
+            <div class="w-6 h-12 md:w-9 md:18 lg:w-12 lg:h-24">
               <div
-                class="br-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
+                class="br-quarter h-6 w-6 md:h-9 md:w-9 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-b-2"
               ></div>
               <div
-                class="tr-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
+                class="tr-quarter h-6 w-6 md:h-9 md:w-9 lg:h-12 lg:w-12 border-primary-700 border-r-2 border-t-2"
               ></div>
             </div>
           </div>
         </div>
         <div class="flex flex-col w-full mt-32 justify-between">
           <div class="flex items-center">
-            <div class="w-6 h-12 lg:w-12 lg:h-24">
+            <div class="w-6 h-12 md:w-9 md:h-18 lg:w-12 lg:h-24">
               <div
-                class="bl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
+                class="bl-quarter h-6 w-6 md:w-9 md:h-9 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
               ></div>
               <div
-                class="tl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
+                class="tl-quarter h-6 w-6 md:w-9 md:h-9 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
               ></div>
             </div>
             <div
@@ -243,12 +245,12 @@
             </div>
           </div>
           <div class="flex items-center">
-            <div class="w-6 h-12 lg:w-12 lg:h-24">
+            <div class="w-6 h-12 md:w-9 md:h-18 lg:w-12 lg:h-24">
               <div
-                class="bl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
+                class="bl-quarter h-6 w-6 md:w-9 md:h-9 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
               ></div>
               <div
-                class="tl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
+                class="tl-quarter h-6 w-6 md:w-9 md:h-9 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
               ></div>
             </div>
             <div
@@ -265,12 +267,12 @@
             </div>
           </div>
           <div class="flex items-center">
-            <div class="w-6 h-12 lg:w-12 lg:h-24">
+            <div class="w-6 h-12 md:w-9 md:h-18 lg:w-12 lg:h-24">
               <div
-                class="bl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
+                class="bl-quarter h-6 w-6 md:w-9 md:h-9 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-b-2"
               ></div>
               <div
-                class="tl-quarter h-6 w-6 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
+                class="tl-quarter h-6 w-6 md:w-9 md:h-9 lg:h-12 lg:w-12 border-primary-700 border-l-2 border-t-2"
               ></div>
             </div>
             <div
