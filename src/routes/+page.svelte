@@ -3,7 +3,7 @@
   import AnimatedLogo from "../components/AnimatedLogo.svelte";
 </script>
 
-<Parallax sections={4}>
+<Parallax sections={4.25}>
   <ParallaxLayer rate={0} span={8} style="background-color:rgb(2, 2, 12) ;" />
 
   <ParallaxLayer rate={-1}>
@@ -310,7 +310,7 @@
   <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
     <div>
       <span> The Team is now hosting this year first </span>
-      <span class="text-primary-700 hover:underline"> recruiting round.</span>
+      <span class="text-primary-700"> recruiting round.</span>
       <span>
         If you are a student of the University of Bologna and would like to join
         the team keep an eye on our Instagram page and website.
