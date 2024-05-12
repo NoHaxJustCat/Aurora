@@ -326,25 +326,28 @@
   </div>
   <h2 class="pt-8 text-3xl">Our Sponsors</h2>
   <div
-    class="w-full my-4 bg-white py-6 h-fit px-4 relative flex justify-between"
+    class="w-full my-4 bg-white py-6 h-24 px-4 space-x-2 md:space-x-8 relative flex justify-between"
   >
     <a
+      class="w-full h-full justify-center flex items-center"
       href="https://www.simscale.com/
   "
     >
-      <img src={simscale_logo} class="h-12" alt="" />
+      <img src={simscale_logo} class="" alt="" />
     </a>
     <a
+      class="w-full h-full justify-center flex items-center"
       href="https://www.notion.so/
     "
     >
-      <img src={notion_logo} class="h-12" alt="" />
+      <img src={notion_logo} class="scale-75" alt="" />
     </a>
     <a
+      class="w-full h-full justify-center flex items-center"
       href="https://www.solidworks.com/
     "
     >
-      <img src={solidworks_logo} class="h-12" alt="" />
+      <img src={solidworks_logo} class="" alt="" />
     </a>
   </div>
 </div>
