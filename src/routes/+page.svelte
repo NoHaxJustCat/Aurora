@@ -329,19 +329,19 @@
       href="https://www.simscale.com/
   "
     >
-      <img src="static/simscale-logo.svg" class="h-12" alt="" />
+      <img src="/simscale-logo.svg" class="h-12" alt="" />
     </a>
     <a
       href="https://www.notion.so/
     "
     >
-      <img src="static/Notion.svg" class="h-12" alt="" />
+      <img src="/Notion.svg" class="h-12" alt="" />
     </a>
     <a
       href="https://www.solidworks.com/
     "
     >
-      <img src="static/SolidWorks_Logo.svg" class="h-12" alt="" />
+      <img src="/SolidWorks_Logo.svg" class="h-12" alt="" />
     </a>
   </div>
 </div>
