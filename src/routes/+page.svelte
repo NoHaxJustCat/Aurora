@@ -1,6 +1,9 @@
 <script>
   import { Parallax, ParallaxLayer } from "svelte-parallax";
   import AnimatedLogo from "../components/AnimatedLogo.svelte";
+  import simscale_logo from "$lib/assets/simscale.svg";
+  import solidworks_logo from "$lib/assets/solidworks.svg";
+  import notion_logo from "$lib/assets/notion.svg";
 </script>
 
 <Parallax sections={4.25}>
@@ -329,19 +332,19 @@
       href="https://www.simscale.com/
   "
     >
-      <img src="/simscale-logo.svg" class="h-12" alt="" />
+      <img src={simscale_logo} class="h-12" alt="" />
     </a>
     <a
       href="https://www.notion.so/
     "
     >
-      <img src="/Notion.svg" class="h-12" alt="" />
+      <img src={notion_logo} class="h-12" alt="" />
     </a>
     <a
       href="https://www.solidworks.com/
     "
     >
-      <img src="/SolidWorks_Logo.svg" class="h-12" alt="" />
+      <img src={solidworks_logo} class="h-12" alt="" />
     </a>
   </div>
 </div>
