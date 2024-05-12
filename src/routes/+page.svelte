@@ -350,7 +350,7 @@
         href="https://www.solidworks.com/
   "
       >
-        <img src={solidworks_logo} class="" alt="" />
+        <img src={solidworks_logo} class="scale-125" alt="" />
       </a>
     </div>
   </div>
