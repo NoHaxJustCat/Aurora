@@ -156,7 +156,7 @@
               class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
-                <h1 class="text-lg sm:text-xl md:text-3xl">Mission Analysis</h1>
+                <h1 class="text-lg sm:text-xl md:text-3xl">Mission Control</h1>
                 <p class="mt-1 lg:mt-2">
                   Plan the mission and estimate the trajectory with software.
                   Collaborate with the other departments to make sure the goal
@@ -200,9 +200,7 @@
               class="bg-[#111827] rounded-lg w-full border-2 border-primary-700"
             >
               <div class="md:p-4 p-2">
-                <h1 class="text-lg sm:text-xl md:text-3xl">
-                  Electronics and Software
-                </h1>
+                <h1 class="text-lg sm:text-xl md:text-3xl">Avionics</h1>
                 <p class="mt-1 lg:mt-2">
                   Make the on-board the electronics of the rocket as well as the
                   ground station. Basic at firsts, in the next projects it will
@@ -306,32 +304,8 @@
 <div
   class="w-full bg-[#111827] h-fit border-t border-white md:px-32 md:p-16 lg:p-20 lg:px-80 p-10 px-8 text-white"
 >
-  <h1 class=" text-3xl sm:text-4xl lg:text-5xl">We are recruiting!</h1>
+  <h1 class=" text-3xl sm:text-4xl lg:text-5xl">Sponsorships</h1>
   <div class=" pt-6 lg:pt-8 text-sm sm:text-md lg:text-lg font-['Poppins']">
-    <div>
-      <span> The Team is now hosting this year first </span>
-      <span class="text-primary-700"> recruiting round.</span>
-      <span>
-        If you are a student of the University of Bologna and would like to join
-        the team keep an eye on our Instagram page and website.
-      </span>
-    </div>
-    <div class=" py-10">
-      <a
-        class="px-2 py-2 transform transition duration-250 border-primary-700 border-2 rounded-md hover:bg-primary-700 hover:text-[#111827] text-lg lg:text-xl font-semibold text-primary-700"
-        href="https://forms.gle/Hv14ezNK15ndfYmQA"
-      >
-        Submit Your Request</a
-      >
-    </div>
-    <p>
-      We will try to take as many students as possible, but be aware that some
-      departments may have some restrictions due to the limited amount of work.
-    </p>
-  </div>
-  <h2 class="pt-8 text-3xl">Sponsorships</h2>
-
-  <div class="pt-8 text-md lg:text-lg font-['Poppins']">
     <p>
       Aurora aspires to reach new heights, and we are seeking support to fuel
       our journey. If your company is interested in providing material or
@@ -346,6 +320,29 @@
         featuring your logo on our rockets and t-shirts.</span
       >
     </div>
+  </div>
+  <h2 class="pt-8 text-3xl">Our Sponsors</h2>
+  <div
+    class="w-full my-4 bg-white py-6 h-fit px-4 relative flex justify-between"
+  >
+    <a
+      href="https://www.simscale.com/
+  "
+    >
+      <img src="static/simscale-logo.svg" class="h-12" alt="" />
+    </a>
+    <a
+      href="https://www.notion.so/
+    "
+    >
+      <img src="static/Notion.svg" class="h-12" alt="" />
+    </a>
+    <a
+      href="https://www.solidworks.com/
+    "
+    >
+      <img src="static/SolidWorks_Logo.svg" class="h-12" alt="" />
+    </a>
   </div>
 </div>
 
