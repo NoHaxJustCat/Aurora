@@ -87,12 +87,10 @@
         >
           <div class="pt-8">
             <span> Aurora Rocketry is a</span>
-            <span class="text-primary-700"> student organization </span>
-            <span> of the </span>
-            <span class="text-primary-700"> University of Bologna </span>
+            <span class="text-primary-700"> non profit organization </span>
             <span>
-              based in the Forlì Campus. Our primary goal is cultivating skilled
-              and passionate engineers that can work together as a team.
+              based in Forlì. Our primary goal is cultivating skilled and
+              passionate engineers that can work together as a team.
             </span>
           </div>
           <p>
