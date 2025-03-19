@@ -1,64 +1,23 @@
-<script>
-  import {
-    NavBrand,
-    NavHamburger,
-    NavLi,
-    NavUl,
-    Navbar,
-  } from "flowbite-svelte";
-  import "../app.css";
-  import {
-    Footer,
-    FooterCopyright,
-    FooterLinkGroup,
-    FooterBrand,
-    FooterLink,
-  } from "flowbite-svelte";
+<script lang="ts">
+	import { base } from '$app/paths';
+	import Navbar from '$lib/components/layout/Navbar.svelte';
+	import '$lib/styles/app.css';
+
+	let { children } = $props();
 </script>
 
-<Navbar class="dark:bg-[#02020c]">
-  <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-xl font-semibold"
-      >Aurora Rocketry Team</span
-    >
-  </NavBrand>
+<Navbar />
 
-  <NavHamburger />
+<div class="filter-blur-xl min-h-screen w-full py-16 xl:py-24">
+	<div class="fixed top-0 right-0 bottom-0 left-0 z-[-1] backdrop-blur-2xl backdrop-filter"></div>
+	<!-- style="background: url({base}/background.jpg) no-repeat center center; background-size: cover;" -->
 
-  <NavUl>
-    <NavLi href="/">Home</NavLi>
-    <NavLi href="/team">The Team</NavLi>
-    <NavLi href="/contact">Contact</NavLi>
-  </NavUl>
-</Navbar>
-
-<slot />
-
-<footer class="bg-[#111827]">
-  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-    <div class="md:flex md:justify-between">
-      <div class="mb-6 md:mb-0">
-        <a href="https://aurorarocketry.eu/" class="flex items-center">
-          <img
-            src="/AuroraLogo.svg"
-            class="h-8 scale-150 me-3"
-            alt="Aurora Logo"
-          />
-          <span
-            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-            >Aurora Rocketry Team</span
-          >
-        </a>
-      </div>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div class="sm:flex sm:items-center sm:justify-between">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-        >© 2024 <a href="https://flowbite.com/" class="hover:underline"
-          >Aurora Rocketry Team</a
-        >. All Rights Reserved.
-      </span>
-      <div class="flex mt-4 sm:justify-center sm:mt-0"></div>
-    </div>
-  </div>
-</footer>
+	<div class="relative container mx-auto flex px-4 sm:px-6">
+		<main class="container w-screen flex-shrink-0 flex-grow px-0 xl:px-4">
+			<div class="main-container searchable-content box-content">
+				{@render children?.()}
+			</div>
+			<!-- <Footer /> -->
+		</main>
+	</div>
+</div>
